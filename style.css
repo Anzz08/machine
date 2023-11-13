@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(banganzz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation{
+    height: 100vh;
+    width: 100%;
+}
+.navigasi{
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid white;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+}
+.logo .logo1{
+    color: white;
+}
+.logo .logo2{
+    color: black;
+    border-left: 2px solid red;
+    border-right: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+    background-color: gold;
+}
+.menu-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.menu-navbar li{
+    margin: 20px;
+}
+.menu-navbar li a{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-navbar li a::after{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-bottom: 2px solid white;
+}
+.menu-navbar li a:hover::after{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.menu-navbar li a::before{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-top: 2px solid white;
+}
+.menu-navbar li a:hover::before{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.login-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login-signin .login1{
+    padding: 15px;
+    background-color: rgb(8, 207, 8);
+    margin: 10px;
+    border-radius: 25px;
+}
+.login-signin .login2{
+    padding: 15px;
+    background-color: palevioletred;
+    margin: 15px;
+    border-radius: 25px;
+}
+.login-signin .login1::after{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-bottom: 2px solid white;
+}
+.login-signin .login1:hover::after{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.login-signin .login1::before{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-bottom: 2px solid white;
+}
+.login-signin .login1:hover::before{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.login-signin .login2::before{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-bottom: 2px solid white;
+}
+.login-signin .login2:hover::before{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.login-signin .login2::after{
+    content: '';
+    transform: scaleX(0);
+    display: block;
+    border-bottom: 2px solid white;
+}
+.login-signin .login2:hover::after{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.login-signin .login1:hover{
+    background-color: palevioletred;
+}
+.login-signin .login2:hover{
+    background-color: rgb(8, 207, 8);
+}
+.menu-navbar li a:hover{
+    color: chartreuse;
+}
+.footeris{
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 300px;
+    border-top: 2px solid white;
+}
+.wrep-foter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.logo-foter a{
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid white;
+}
+.logo-foter p{
+    padding: 15px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: circle;
+}
+.isi-foter p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid white;
+    margin: 12px;
+}
+.isi-foter li {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px;
+}
+.isi-foter li a{
+    color: grey;
+}
+.isi-foter li a::after{
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    border-bottom: 2px solid coral;
+}
+.isi-foter li a:hover::after{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.isi-foter li a:hover{
+    color: rgb(8, 207, 8);
+}
+.isi2-foter a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid white;
+    margin: 8px;
+}
+.isi2-foter p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7px;
+    color: grey;
+}
+.maps a{
+    padding: 10px;
+}
+.maps iframe{
+    height: 200px;
+    width: 400px;
+}
+.drop{
+    transform: scaleX(0);
+    position: absolute;
+    margin: 0.5px;
+    background-color: rgba(0, 0, 0, 0.753);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+}
+li:hover .drop{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.body-login{
+    background-image: url(anzv.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body-sigin{
+    background-image: url(qwerty.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-tabel{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    padding: 0px 25px;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 500px;
+}
+.form-tabel h1{
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    margin: 10px 2px;
+    text-align: center;
+}
+input{
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: white;
+}
+select{
+    margin-left: 10px;
+    padding: 3px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+option{
+    color: black;
+}
+textarea{
+    margin: 9px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 7px;
+}
+.login{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+    padding: 30px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 2px 2px 2px white;
+}
+.login h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(91, 255, 91);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.login2 label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.login2 input{
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(91, 255, 91);
+    width: 170px;
+    position: relative;
+}
+.masuk{
+    text-align: center;
+    background-color: rgb(64, 219, 64);
+    padding: 10px;
+    border-radius: 20px;
+}
+.masuk a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.masuk:active{
+    background-color: grey;
+}
+.masuk a:active{
+    color: black;
+}
+.isi-content{
+    display: block;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.isi-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px white;
+    border: 2px solid white;
+}
+.content12{
+    text-align: center;
+    display: block;
+    top: 50%;
+    left: 22%;
+    position: absolute;
+    background-color: white;
+}
+.content12 p{
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
